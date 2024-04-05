@@ -1,0 +1,77 @@
+---
+title: "Recommender systems- airbnb"
+author: "Adriana Medina"
+date: "2024-04-05"
+format: html
+editor: visual
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# The assignment:
+
+Your task is to analyze an existing recommender system that you find interesting.  You should:
+Perform a Scenario Design analysis as described below.  Consider whether it makes sense for your selected recommender system to perform scenario design twice, once for the organization (e.g. Amazon.com) and once for the organization's customers.
+Attempt to reverse engineer what you can about the site, from the site interface and any available information that you can find on the Internet or elsewhere.
+Include specific recommendations about how to improve the site's recommendation capabilities going forward. 
+
+
+## Introduction
+For this assignment, I chose the Airbnb Recommender System.
+
+# Scenario design:
+
+Organization Perspective:
+
+__Objective, taken from Airbnb's Mission: Airbnb aims to enhance user experience, increase booking conversions, and foster trust between hosts and guests by delivering personalized accommodation recommendations tailored to individual preferences and requirements.__
+
+
++ Who are the target users?
+
+__The target users are people traveling or people looking for places to stay during their trips.__
+
++ What are their key goals?
+
+__Their key goals are to find somewhere to stay that suits their preferences. To find the best option at the ideal price. __
+
++ How can you help them accomplish those goals?
+
+__We can help them accomplish their goals by recommending personalized accommodations based on previous booking history, or provide filters for them to use to really maximize their search.__
+
+# Reverse Engineering: 
+
+Based on the site's interface, and my own profile,
+
+Data Sources include:
+
++ User profiles
+
++ Search History
+
++ Booking History
+
++ Reviews
+
++ Property Details
+
++ Budget constraints
+
++ Trip dates
+
++ Location
+
+# Improvement Strategies:
+
+__Enhance personalization, and tailor the user experience to the user. Discover new ways to personalize the search to the user's personality. Maybe personality assessment tools? People are now making decisions based on what the "vibes" are, I'm sure we can find a way to leverage that.__
+
+__Focus on establishing trust and safety between hosts and guests. We should focus on vetting users (based on reviews from hosts), transparency when displaying ratings and reviews, and boost the hosts with better ratings.__
+
+__Add more filters to improve searches. Maybe an "advanced search" button with the additional filters so it doesn't overwhelm all users with so many options.__ 
+
+
+
+Sources:
+https://www.tealhq.com/company/airbnb#:~:text=Airbnb's%20core%20mission%20is%20centered,and%20passions%20with%20the%20world.
